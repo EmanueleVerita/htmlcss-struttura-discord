@@ -4,9 +4,88 @@ RESET
 
 */
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 
 }
+
+nav{
+    height: 80px;
+}
+
+.debug nav{
+    background-color: #7C99A2;
+}
+
+
+.colbar1{
+    width: 20%;
+    height: 30px;
+    vertical-align: middle;
+
+}
+
+.colbar2{
+    width: 40%;
+    height: 30px;
+    text-align: center;
+    vertical-align: middle;
+    
+}
+
+.colbar3{
+    width: 20%;
+    text-align: end;
+    vertical-align: middle;
+    height: 30px;
+    
+}
+
+.bar{
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.debug .colbar1{
+    background-color: #DAA520;
+    border: 2px dashed black;
+}
+
+.debug .colbar2{
+    background-color: #DAA520;
+    border: 2px dashed black;
+}
+
+.debug .colbar3{
+    background-color: #DAA520;
+    border: 2px dashed black;
+}
+
+.header-container{
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.debug .header-container{
+    background-color: #00008B;
+}
+
+.header-topic{
+    height: 400px;
+    width: 60%;
+ 
+}
+
+.debug .header-topic{
+    background-color: #EE82EE;
+    border: 2px dashed black;
+}
+
